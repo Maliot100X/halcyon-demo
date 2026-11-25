@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0e1214" />
+    <title>Halcyon — Ceramics thrown by the lake</title>
+    <meta name="description" content="Halcyon is a small ceramics atelier on the shore of Lake Ohrid. Vessels thrown by hand, wood-fired, glazed in celadon." />
+    <meta property="og:title" content="Halcyon — Ceramics thrown by the lake" />
+    <meta property="og:image" content="/halcyon-demo/media/hero.webp" />
+    <link rel="icon" type="image/svg+xml" href="/halcyon-demo/favicon.svg" />
+    <link rel="preload" as="image" href="/halcyon-demo/frames/f001.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&family=Sora:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+    <script type="module" crossorigin src="/halcyon-demo/assets/index-Cv2vB5X9.js"></script>
+    <link rel="modulepreload" crossorigin href="/halcyon-demo/assets/motion-CFRBcdY8.js">
+    <link rel="modulepreload" crossorigin href="/halcyon-demo/assets/icons-BjBoQMZs.js">
+    <link rel="stylesheet" crossorigin href="/halcyon-demo/assets/icons-lVnLm4fM.css">
+  </head>
+  <body>
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[90] focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-bone">Skip to content</a>
+
+    <div class="preloader" aria-hidden="true">
+      <div class="text-center">
+        <p class="display text-[clamp(3rem,10vw,8rem)] leading-none"><span class="line-mask"><span>Halcyon</span></span></p>
+        <p class="label mt-6 text-stone"><span data-load-count>0</span>%</p>
+      </div>
+    </div>
+    <div class="curtain" aria-hidden="true"></div>
+
+    <!-- NAV: mix-blend keeps it legible over dark film and bone paper alike -->
+    <header class="fixed inset-x-0 top-0 z-50 flex items-center justify-between px-[clamp(18px,3vw,44px)] py-5 text-bone mix-blend-difference">
+      <a href="#top" class="display text-2xl leading-none" aria-label="Halcyon, home">Halcyon</a>
+      <nav aria-label="Main" class="hidden gap-8 md:flex">
+        <a class="nav-link label" href="#pieces">Pieces</a>
+        <a class="nav-link label" href="#process">Process</a>
+        <a class="nav-link label" href="#atelier">Atelier</a>
+        <a class="nav-link label" href="#hold">Hold it</a>
+        <a class="nav-link label" href="#visit">Visit</a>
+      </nav>
+      <a href="#pieces" class="label flex items-center gap-2"><i data-lucide="shopping-bag"></i>Bag (<span data-bag-count>0</span>)</a>
+    </header>
+
+    <main id="main">
+      <!-- 01 · FILM: one camera move scrubbed by the scrollbar ------------------------ -->
+      <section id="top" class="film" aria-label="Introduction">
+        <div class="film-stage text-bone">
+          <img class="film-poster" src="/halcyon-demo/frames/f001.webp" alt="A celadon vase on a limestone ledge above a misty lake at dawn." />
+          <canvas data-film aria-hidden="true"></canvas>
+          <div class="film-grain" aria-hidden="true"></div>
+          <div class="absolute inset-0 bg-gradient-to-b from-night/40 via-transparent to-night/50" aria-hidden="true"></div>
+
+          <div data-hero-copy class="absolute inset-x-0 bottom-0 px-[clamp(18px,3vw,44px)] pb-[clamp(28px,6vh,64px)]">
+            <p class="label mb-6 text-bone/70" data-rise>Atelier · Lake Ohrid · Est. 2019</p>
+            <h1 class="display max-w-[14ch] text-[clamp(3.2rem,1rem+7.4vw,9.5rem)] leading-[0.88]">
+              <span class="line-mask"><span>Thrown by hand,</span></span>
+              <span class="line-mask"><span><em>fired by</em></span></span>
+              <span class="line-mask"><span><em>lake light.</em></span></span>
+            </h1>
+          </div>
+
+          <!-- beats that land while the camera travels -->
+          <p data-beat="0" class="label absolute right-[clamp(18px,3vw,44px)] top-[28%] max-w-[22ch] text-right text-bone opacity-0">I · Galičica clay, dug in spring</p>
+          <p data-beat="1" class="display absolute left-[clamp(18px,6vw,96px)] top-[22%] max-w-[12ch] text-h3 text-bone opacity-0">One vessel a day. <em>Never two alike.</em></p>
+          <p data-beat="2" class="label absolute right-[clamp(18px,3vw,44px)] bottom-[18%] max-w-[24ch] text-right text-bone opacity-0">II · Celadon glaze, cone 10, 1,300&nbsp;°C</p>
+
+          <!-- chapter rail -->
+          <div class="absolute right-[clamp(10px,1.6vw,24px)] top-1/2 hidden -translate-y-1/2 flex-col items-end gap-3 md:flex" aria-hidden="true">
+            <span class="label text-bone/60" data-rail-num>01</span>
+            <span class="relative h-40 w-px bg-bone/25"><span data-rail-fill class="absolute inset-x-0 top-0 h-full origin-top scale-y-0 bg-bone"></span></span>
+            <span class="label text-bone/60">03</span>
+          </div>
+          <p class="label absolute bottom-[clamp(28px,6vh,64px)] right-[clamp(18px,3vw,44px)] hidden text-bone/70 md:block" data-scroll-cue><span class="flex items-center gap-2"><i data-lucide="arrow-down"></i>Scroll — the camera moves</span></p>
+        </div>
+      </section>
+
+      <!-- 02 · MANIFESTO ---------------------------------------------------------------- -->
+      <section class="bg-bone px-[clamp(18px,3vw,44px)] py-[clamp(96px,18vh,220px)]">
+        <div class="grid gap-10 md:grid-cols-12">
+          <p class="label text-mute md:col-span-3">(01) — The house</p>
+          <p class="display text-h2 md:col-span-9" data-words>
+            We make few things, slowly. Each vessel is thrown from lake clay, dried for three weeks in the fog, and fired once in wood — so the flame, <em>not the potter,</em> signs it.
+          </p>
+        </div>
+        <div class="mt-[clamp(64px,10vh,120px)] grid gap-8 border-t border-ink/15 pt-8 md:grid-cols-12">
+          <p class="label text-mute md:col-span-3 md:col-start-4">Founded<br /><span class="text-ink">2019, Ohrid</span></p>
+          <p class="label text-mute md:col-span-3">Firings a year<br /><span class="text-ink">Four</span></p>
+          <p class="label text-mute md:col-span-3">Pieces per firing<br /><span class="text-ink">Sixty, at most</span></p>
+        </div>
+      </section>
+
+      <!-- 03 · PROCESS: pinned storytelling, images swap by clip-path ------------------- -->
+      <section id="process" class="relative bg-ink text-bone md:grid md:grid-cols-2" data-process>
+        <div class="process-media hidden md:block" aria-hidden="true">
+          <div class="frame" data-proc-img="0"><img src="/halcyon-demo/media/clay.webp" alt="" /></div>
+          <div class="frame" data-proc-img="1"><img src="/halcyon-demo/media/fire.webp" alt="" /></div>
+          <div class="frame" data-proc-img="2"><img src="/halcyon-demo/media/glaze.webp" alt="" /></div>
+          <p class="label absolute bottom-6 left-6 text-bone/80"><span data-proc-num>01</span> / 03</p>
+        </div>
+        <div class="px-[clamp(18px,3vw,44px)]">
+          <article class="flex min-h-[100svh] flex-col justify-center py-24" data-proc-step="0">
+            <div class="frame mb-10 aspect-[3/4] md:hidden"><img src="/halcyon-demo/media/clay.webp" alt="Hands shaping terracotta clay on a wheel." loading="lazy" /></div>
+            <p class="label mb-6 text-celadon">Chapter 01 — Clay</p>
+            <h2 class="display mb-8 text-h2"><span class="line-mask"><span>Dug, sieved,</span></span><span class="line-mask"><span><em>left to rest.</em></span></span></h2>
+            <p class="max-w-[42ch] text-lede text-bone/70">The clay comes from one bank on the Galičica slope. It ages in the cellar for a winter before it ever meets the wheel, which is why our walls can be thrown thin without slumping.</p>
+          </article>
+          <article class="flex min-h-[100svh] flex-col justify-center py-24" data-proc-step="1">
+            <div class="frame mb-10 aspect-[3/4] md:hidden"><img src="/halcyon-demo/media/fire.webp" alt="Vessels glowing inside a wood-fired kiln." loading="lazy" /></div>
+            <p class="label mb-6 text-clay">Chapter 02 — Fire</p>
+            <h2 class="display mb-8 text-h2"><span class="line-mask"><span>Thirty hours</span></span><span class="line-mask"><span><em>of pine and ash.</em></span></span></h2>
+            <p class="max-w-[42ch] text-lede text-bone/70">The kiln is stoked every seven minutes, day and night. Ash settles on the shoulders of each pot and melts into a glaze nobody planned — the reason no two pieces match.</p>
+          </article>
+          <article class="flex min-h-[100svh] flex-col justify-center py-24" data-proc-step="2">
+            <div class="frame mb-10 aspect-[3/4] md:hidden"><img src="/halcyon-demo/media/glaze.webp" alt="A bowl being dipped into pale celadon glaze." loading="lazy" /></div>
+            <p class="label mb-6 text-celadon">Chapter 03 — Glaze</p>
+            <h2 class="display mb-8 text-h2"><span class="line-mask"><span>Celadon,</span></span><span class="line-mask"><span><em>the colour of fog.</em></span></span></h2>
+            <p class="max-w-[42ch] text-lede text-bone/70">Our celadon is iron and wood ash, nothing more. It goes on grey and comes out of the fire the colour of the lake at six in the morning.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 04 · PIECES: product cards, hover = liquid distortion (WebGL, purposeful) ---- -->
+      <section id="pieces" class="bg-paper px-[clamp(18px,3vw,44px)] py-[clamp(96px,16vh,200px)]">
+        <div class="mb-16 flex flex-wrap items-end justify-between gap-6">
+          <h2 class="display text-h2"><span class="line-mask"><span>Firing <em>No. 23</em></span></span></h2>
+          <p class="label flex items-center gap-2 text-mute md:hidden"><i data-lucide="arrow-up-right"></i>Tap a piece to open it</p>
+          <p class="label max-w-[34ch] text-mute">Three pieces from the autumn firing. Each is one of one; the photograph is the piece you receive.</p>
+        </div>
+        <div class="grid gap-x-6 gap-y-16 md:grid-cols-3">
+          <article class="group" data-reveal>
+            <a href="/halcyon-demo/piece.html" class="block" data-transition>
+              <div class="frame aspect-[3/4]" data-distort style="view-transition-name: piece-01"><img src="/halcyon-demo/media/piece-01.webp" alt="Tall celadon vase with crackled glaze." loading="lazy" /></div>
+            </a>
+            <div class="mt-5 flex items-start justify-between gap-4">
+              <div><h3 class="display text-h3">Fog <em>Vase</em></h3><p class="label mt-2 text-mute">Celadon · 31 cm · Stoneware</p></div>
+              <div class="text-right"><p class="label">€ 420</p><button type="button" class="btn mt-3 bg-ink text-bone" data-add><i data-lucide="plus"></i>Add to bag</button></div>
+            </div>
+          </article>
+          <article class="group md:mt-24" data-reveal>
+            <a href="/halcyon-demo/piece.html" class="block" data-transition><div class="frame aspect-[3/4]" data-distort><img src="/halcyon-demo/media/piece-02.webp" alt="Wide speckled stoneware bowl with a raw terracotta foot." loading="lazy" /></div></a>
+            <div class="mt-5 flex items-start justify-between gap-4">
+              <div><h3 class="display text-h3">Shore <em>Bowl</em></h3><p class="label mt-2 text-mute">Oatmeal · Ø 24 cm · Stoneware</p></div>
+              <div class="text-right"><p class="label">€ 260</p><button type="button" class="btn mt-3 bg-ink text-bone" data-add><i data-lucide="plus"></i>Add to bag</button></div>
+            </div>
+          </article>
+          <article class="group md:mt-48" data-reveal>
+            <a href="/halcyon-demo/piece.html" class="block" data-transition><div class="frame aspect-[3/4]" data-distort><img src="/halcyon-demo/media/piece-03.webp" alt="Round moon jar in iron-black tenmoku breaking to rust." loading="lazy" /></div></a>
+            <div class="mt-5 flex items-start justify-between gap-4">
+              <div><h3 class="display text-h3">Ember <em>Moon Jar</em></h3><p class="label mt-2 text-mute">Tenmoku · 22 cm · Wood-fired</p></div>
+              <div class="text-right"><p class="label">€ 680</p><button type="button" class="btn mt-3 bg-ink text-bone" data-add><i data-lucide="plus"></i>Add to bag</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 05 · HOLD IT: the one three.js moment — the product itself, turning in studio light --- -->
+      <section id="hold" class="relative bg-bone md:h-[100svh]" data-hold aria-labelledby="hold-title">
+        <div class="grid h-full md:grid-cols-12">
+          <div class="flex flex-col justify-between gap-10 px-[clamp(18px,3vw,44px)] pb-10 pt-[clamp(96px,14vh,160px)] md:col-span-5 md:pb-12">
+            <div>
+              <p class="label mb-6 text-mute">(04) — Hold it</p>
+              <h2 id="hold-title" class="display text-h2" data-chars>Hold <em>it.</em></h2>
+              <p class="mt-8 max-w-[38ch] text-lede text-ink/75">The Fog Vase, in real time. Drag to turn it and see the glaze catch the light, then choose which glaze it's fired in.</p>
+            </div>
+            <div>
+              <p class="label mb-4 text-mute">Glaze · <span class="text-ink" data-glaze-name>Celadon</span></p>
+              <div class="flex flex-wrap gap-2" role="group" aria-label="Choose glaze">
+                <button type="button" class="swatch label" data-glaze="celadon" data-label="Celadon" aria-pressed="true"><span class="dot" style="background:#8fae9b"></span>Celadon</button>
+                <button type="button" class="swatch label" data-glaze="oatmeal" data-label="Oatmeal" aria-pressed="false"><span class="dot" style="background:#d9cdb8"></span>Oatmeal</button>
+                <button type="button" class="swatch label" data-glaze="tenmoku" data-label="Tenmoku" aria-pressed="false"><span class="dot" style="background:#2a1d16"></span>Tenmoku</button>
+              </div>
+              <dl class="mt-10 grid grid-cols-2 gap-y-3 overflow-clip border-t border-ink/15 pt-6" data-specs>
+                <dt class="label text-mute" data-spec>Height</dt><dd class="label" data-spec>31 cm</dd>
+                <dt class="label text-mute" data-spec>Wall</dt><dd class="label" data-spec>4 mm, thrown</dd>
+                <dt class="label text-mute" data-spec>Firing</dt><dd class="label" data-spec>Wood · cone 10</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="vessel-stage h-[78svh] md:col-span-7 md:h-full" data-vessel>
+            <img src="/halcyon-demo/media/piece-01.webp" alt="The Fog Vase, a tall celadon stoneware vase." loading="lazy" />
+            <p class="label pointer-events-none absolute bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-2 whitespace-nowrap text-mute"><i data-lucide="rotate-3d"></i> Drag to turn · real-time</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 · ATELIER: full-bleed image opens from a window (clip-path) + parallax ----- -->
+      <section id="atelier" class="bg-paper pb-[clamp(96px,16vh,200px)]">
+        <div class="frame h-[110svh]" data-window>
+          <img class="parallax" src="/halcyon-demo/media/atelier.webp" alt="The atelier: shelves of drying pots beside a foggy lake window." loading="lazy" data-parallax />
+          <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/70 to-transparent px-[clamp(18px,3vw,44px)] pb-10 pt-40 text-bone">
+            <p class="label mb-4 text-bone/70">(05) — The atelier</p>
+            <p class="display max-w-[18ch] text-h2">An old stone house, <em>one window on the water.</em></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 07 · VISIT + giant wordmark ------------------------------------------------- -->
+      <section id="visit" class="bg-ink px-[clamp(18px,3vw,44px)] pt-[clamp(96px,16vh,200px)] text-bone">
+        <div class="grid gap-12 md:grid-cols-12">
+          <div class="md:col-span-6">
+            <p class="label mb-6 text-stone">(06) — Visit</p>
+            <h2 class="display text-h2"><span class="line-mask"><span>Come for</span></span><span class="line-mask"><span><em>the opening of the kiln.</em></span></span></h2>
+          </div>
+          <form class="md:col-span-5 md:col-start-8 md:self-end" data-form>
+            <label for="email" class="label mb-3 block text-stone">Four openings a year · one letter each</label>
+            <div class="flex gap-2 border-b border-bone/30 pb-3">
+              <input id="email" type="email" required placeholder="you@email.com" class="min-w-0 flex-1 bg-transparent text-lede outline-none placeholder:text-bone/35" />
+              <button type="submit" class="btn bg-bone text-ink">Reserve <i data-lucide="arrow-right"></i></button>
+            </div>
+            <p class="label mt-4 hidden text-celadon" data-form-done role="status">You’re on the list. We’ll write before the next firing.</p>
+          </form>
+        </div>
+        <p class="display mt-[clamp(80px,14vh,180px)] mb-4 select-none overflow-clip whitespace-nowrap pb-[0.06em] text-center leading-[0.95]" data-fit aria-hidden="true">Halcyon</p>
+        <footer class="flex flex-wrap items-center justify-between gap-4 border-t border-bone/15 py-6 text-stone">
+          <span class="label flex items-center gap-2"><i data-lucide="map-pin"></i>© <span data-year></span> Halcyon Ceramics · Ohrid</span>
+          <span class="label">Starter · 3d-web-builder-toolkit</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
